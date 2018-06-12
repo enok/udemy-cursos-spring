@@ -12,8 +12,14 @@ import org.springframework.stereotype.Service;
 @Profile("de")
 public class PrimaryGermanGreetingService implements GreetingService {
 
+    private GreetingRepositoy greetingRepositoy;
+
+    public PrimaryGermanGreetingService(GreetingRepositoy greetingRepositoy) {
+        this.greetingRepositoy = greetingRepositoy;
+    }
+
     @Override
     public String sayGreeting() {
-        return "Primäre Grußdienst";
+        return greetingRepositoy.getGermanGreeting();
     }
 }
