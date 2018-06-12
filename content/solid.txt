@@ -1,0 +1,5 @@
+S ingle Responsability Principle (classes, methods with only one responsability)
+O pen Closed Prinpiple (open do extend, closed to modify)
+L iskov Substitution Principle (is)
+I nterface Segregation Principle (avoid god interfaces)
+D ependency Inversion Principle (abstractions should not depend upon details and vice-versa)
