@@ -1,3 +1,5 @@
+OOP Principles to write well-designed code that are more readable, maintainable, and easier to upgrade and modify.
+
 S ingle Responsability Principle (classes, methods with only one responsability)
 O pen Closed Prinpiple (open do extend, closed to modify)
 L iskov Substitution Principle (is)
