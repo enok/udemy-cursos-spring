@@ -1,3 +1,4 @@
+LOG_DIR: /tmp/logs
 guru:
     jms:
         username: John - EN

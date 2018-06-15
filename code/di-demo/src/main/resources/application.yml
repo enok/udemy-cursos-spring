@@ -1,3 +1,6 @@
+log:
+  dir: /tmp/ide
+
 guru:
   jms:
     username: JMS Username

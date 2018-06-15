@@ -1,0 +1,8 @@
+log:
+  dir: /tmp/command
+
+guru:
+    jms:
+        username: John - DE
+        password: 78901
+        url: www.john.de

@@ -1,0 +1,2 @@
+java -Dlog.dir=/tmp/command -jar di-demo-0.0.1-SNAPSHOT.jar
+java -Dlog.dir=/tmp/command -jar -Dspring.profiles.active=es di-demo-0.0.1-SNAPSHOT.jar
